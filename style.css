@@ -29,9 +29,24 @@ body{
     flex: 0 0 25%;
     max-width: 25%;
 }
+
+.col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
 .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
+}
+
+.col-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
 }
 
 .header {
@@ -54,7 +69,7 @@ body{
     border-left: 1px solid #2c71b8;
 }
 
-.menu li:last-child {
+.menu li:last-child > a {
     border-right: 1px solid #2c71b8; 
 }
 
